@@ -17,8 +17,11 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
     font-size: 100%;
+}
+
+article {
+ padding: 2em;   
 }
 
 img {
@@ -56,6 +59,17 @@ img {
     text-align:left;
 }
 
+.time-border {
+    border-color: black;
+    border: 0;
+    color: gray;
+    border-radius: 5px
+}
+
+.inline {
+    display:inline-block;
+}
+
 h1 {
     font-size: 3em;
     font-family: "Georgia";
@@ -68,8 +82,25 @@ h2 {
     font-size: 1.8em;
 }
 
+h3 {
+    font-weight:lighter;
+    font-size: 1.2em;
+}
+
 h4 {
+    font-size: 1.3em;
+    font-weight:bolder;
+    color: gray;
+}
+
+h5 {
     margin: 0.5em 0em;
+    font-weight:normal;
+    font-style:italic;
+}
+
+h6 {
+    font-size: 0.9em;
 }
 
 p {
@@ -80,4 +111,14 @@ strong {
     color: green;
     font-weight:bolder;
     font-style:italic;
+}
+
+
+a {
+    color:green;
+}
+
+.link {
+    text-decoration:underline;
+    color: green;
 }
